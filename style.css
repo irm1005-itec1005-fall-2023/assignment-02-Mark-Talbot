@@ -49,7 +49,9 @@ body {
   background-color: beige;
   padding: 3rem;
   border-radius: 1rem;
+  display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 
