@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../vscode/demonstrations"
+		},
+		{
+			"path": "../../assignment-01-Mark-Talbot"
+		},
+		{
+			"path": "../../../../../vscode/midterm real/midterm-exam-Mark-Talbot"
+		},
+		{
+			"name": "assignment-02-Mark-Talbot",
+			"path": "."
+		}
+	],
+	"settings": {}
+}

@@ -5,15 +5,224 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #fb8500;
+  background: linear-gradient(to right, #d97c7c, #e23333);
+  justify-content: right;
+  align-items: start;
+}
+
+
+.Navigation-header {
+  background-color: beige;
+  padding: 1rem 0;
+
   display: flex;
-  justify-content: center;
+  flex-direction: row-reverse;
+
+  justify-content: flex-start;
   align-items: center;
 }
+
+
+.nav-item {
+  list-style: none;
+  margin-right: 2rem;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-item :first-child {
+  width: 40px;
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+
+
+.tickets-container{
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.img-CTC {
+  background-color: beige;
+  padding: 3rem;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
 
 h1 {
   font-size: 2rem;
   font-weight: bold;
   text-align: center;
-  color: #023047;
+
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  
 }
+
+h2 { 
+  padding-bottom: 1rem;
+  padding-top: 2rem;
+  margin-left: 1rem;
+}
+
+p{
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+
+.Buy-now-btn {
+  align-items:center;
+  display: block;
+
+  margin: 5rem;
+  margin-top: 2rem;
+  background-color: rgb(0, 0, 0);
+  color:beige;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 1rem;
+
+}
+
+.Contents-container {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content:center ;
+  padding: 0.5rem;
+}
+
+.giroux1000pt img{
+  max-width: 100%;
+}
+
+.img-Giroux {
+  flex-basis: 60%;
+  background-color: beige;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.Table-of-contents {
+  display: flex;
+  flex-direction: column;
+
+   justify-content: flex-start;
+  align-items: center;
+  
+.table-contents-item {
+    list-style: none;
+    margin: 2rem;
+  }
+  
+  .table-contents-item a {
+    
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: beige;
+
+    border-radius: 1rem;
+    padding bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+.About-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: beige;
+  padding: 0.5rem;
+
+}
+  
+.Andlauer img{ 
+max-width: 100%;
+justify-content: center;
+
+}
+
+.img-Andlauer {
+  flex-basis: 40%;
+  padding: 1rem;
+  background-color: #dd7474;
+  border-radius: 1rem;
+
+  
+}
+
+.text-Andlauer {
+  padding: 2rem;
+}
+
+.Team-store-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background-color: beige;
+}
+
+.img-jersey {
+  padding: 1rem;
+  background-color: beige;
+  border-radius: 1rem;
+}
+
+.results-news-container {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+padding: 2rem;
+}
+
+.text-news{
+flex-basis: 100%;
+}
+
+.text-results {
+  flex-basis: 100%;
+}
+
+
+.Navigation-footer {
+  background-color: beige;
+  padding: 1rem 0;
+
+  display: flex;
+  flex-direction: row-reverse;
+
+  justify-content: flex-start;
+  align-items: center;
+}
+
+
+.nav-item-footer {
+  list-style: none;
+  margin-right: 2rem;
+}
+
+.nav-item-footer a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-item-footer :first-child {
+  width: 40px;
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+
