@@ -49,11 +49,14 @@ body {
   background-color: beige;
   padding: 3rem;
   border-radius: 1rem;
+ 
+}
+
+.CTC img {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
 
 
 h1 {
